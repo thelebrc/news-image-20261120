@@ -6,12 +6,14 @@
 
 One image that sums up the world news of **Friday 20 November 2026**, drawn as a newspaper front page: a masthead naming the day, and six stories, each clear from its own picture and a short label.
 
-1. **Washington — No rush on Iran.** Trump says the decision on Iran waits until 2027. (Reuters)
-2. **India — Cyclone Akvan hits Odisha.** 72,000 people evacuated before landfall near Gopalpur. (IMD / ANI)
-3. **Space — Voyager 1: one light-day.** The first human-made object to reach one light-day from Earth, 16.1 billion miles out. (NASA)
-4. **Berlin — Europe ready for talks.** Ukraine's allies say they have a united position for negotiations with Russia. (BBC)
-5. **Entertainment — GTA 6: $1.84bn in one day.** Sensor Tower's estimate tops The Odyssey's $1.805bn box-office run. (Sensor Tower via Reuters / Forbes)
-6. **Iowa — Noon blast planned.** The US Army is set to detonate 68 barrels of unstable lead azide at noon in Middletown. (Des Moines Register)
+This is the second version, rebuilt from the full day's news and resubmitted on 21 November 2026 (the first version, submitted on the morning of 20 November, used only the morning's news).
+
+1. **Kyiv — Russia's biggest barrage.** More than 400 drones and 110 missiles overnight, at least 8 killed; three Dnipro bridges and railway infrastructure hit, and Russian missiles crossed into Poland. (Reuters / AP)
+2. **Shenzhen — First-ever G3 summit.** Trump, Xi and Putin meet at APEC; joint statement that a nuclear war cannot be won and must never be fought. (WSJ / CNN)
+3. **Riyadh — Missile hits PIF Tower.** A suspected Houthi missile strikes the 80-storey PIF Tower, blowing out windows across 7–8 floors, no injuries; the second financial-district landmark hit in under two weeks. (Reuters)
+4. **Washington — Iran war: $48.3bn.** Pentagon tells Congress the war has cost $48.3 billion as of 13 November, excluding base damage; Trump says no rush on a new strike, decision waits until 2027. (AP / Reuters)
+5. **Entertainment — GTA 6: $3.79bn in one day.** Take-Two/Rockstar's official day-one figure, with 32.5 million pre-release copies — the biggest entertainment launch in history. (Take-Two / Business Wire)
+6. **Space — Voyager 1: one light-day.** The first human-made object to reach one light-day from Earth, 16.1 billion miles out. (NASA)
 
 Every visual is drawn by hand in code — shapes and typography only, no photographs or borrowed artwork. The page was built as `news.html` (inline SVG pictograms) and rendered to `entry.png` (1024×1024) with headless Chrome. `main.ts` copies that PNG to the output directory; the same bytes are produced on every run.
 
